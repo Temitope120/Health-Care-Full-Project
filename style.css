@@ -1,0 +1,1522 @@
+
+@media screen and (min-width: 200px) and (max-width: 320px){
+    .large-button{
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        width: 75%;
+        height: 50px;
+        padding: 0px 15px;   
+    }
+    nav ul li a.active{
+        border: none;
+    }
+    .header{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/header-bg-img.svg);
+        height: 960px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header h1{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 65px;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0.03em;
+        padding-top: 120px;
+    }
+    .active-div-text{
+        position: absolute;
+        top: 1259px;
+        right: 41px;
+    }
+    .active-div-text p{
+        font-family: 'Overpass', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #25282B;
+    }
+    .active-div-text .light-text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        text-align: center;
+    }
+    .header p{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center; 
+        color: #FFFFFF;
+        padding: 25px;
+    }
+    .header div{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        /* align-content: space-around; */
+        align-items: center;
+        padding: 30px 35px;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    nav ul li{
+        list-style-type: none;
+        /* padding:0px 30px; */
+    
+    }
+    .contact-us{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .contact-us img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .info{
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .info h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: left;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #52575C;
+        padding-bottom: 45px;
+    }
+
+    .mission{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#ffffff ;
+    }
+    .mission .about{
+        display: flex;
+        align-items: center;
+    }
+    .mission .about .about-us{
+        margin-right: 100px;
+    }
+    .info-two{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right:0px;
+        margin-bottom: 0px;
+    }
+    .info-two h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info-two h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 44px;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info-two p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #52575C;
+        padding-bottom: 25px;
+    }
+    .info-two h5{
+        font-family: 'Archivo', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #2131B6;
+    }
+    
+    .section-four h3{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        color: #25282B;  
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .section-four .text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #25282B;
+    }
+
+    .show-case{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+    }
+    .show-case div{
+        margin-right: 0px;
+        width: 80%;
+        height: 80%;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+    .carousel-circles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .carousel-circles img{
+        margin-right: 10px;
+    }
+    .vehicle{
+        display: none;
+    }
+    .get-in-touch{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/bg-img-get-in-touch.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 300px; */
+        margin: 0 auto;
+        width: 100%;
+    }
+    .get-in-touch h3{
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 35px;
+        color: #FFFFFF; 
+        margin: 35px auto;   
+    }
+    .get-in-touch div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .get-in-touch button{
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 50%;
+        height: 50px;
+        padding: 0;
+    }
+    .show-case .title{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #25282B;  
+        padding: 20px 0;  
+    }
+
+    .drivers div p{
+        font-family: 'Overpass', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 25px;
+        color: #25282B;
+    }
+    .drivers div img{
+        width: 100%;
+    }
+    .drivers .active-div{
+        background-image: url(images/drivers-img-4.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 398px;
+        padding-bottom: 30px;
+    }
+    .drivers .active-div div{
+        display: flex;
+        background: rgba(33, 49, 182, 0.7);
+        padding: 6px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 297px;
+    }
+    .drivers .active-div div img{
+        margin-right: 20px;
+        width: 50%;
+    }
+    .drivers .light-text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        text-align: center;
+    }
+    .gallery h3{
+        font-size: 32px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+    .gallery-heading{
+        display: inline;
+        padding-bottom: 5px;
+        border-bottom: 4px solid  #2131B6;
+    }
+
+    .gallery-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .gallery-links li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #25282B;
+    }
+    .gallery-links ul{
+        padding-top: 20px;
+    }
+    .gallery-links ul li{
+        padding: 10px;
+    }
+    .gallery-links ul li a.active{
+        display: inline;
+        padding-bottom: 10px;
+        border-bottom: 4px solid  #2131B6;
+    }
+
+    .gallery-images img{
+        width: 100%;
+    }
+    .gallery-images .wedding-img{
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/gallery-img-5.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .gallery-images .wedding-img h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .gallery-images .wedding-img p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;  
+    }
+    .gallery-images .wedding-img div{
+        margin-top: 95px;  
+    }
+    
+    .show-all-link{
+        color: black !important;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #25282B;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:480px){
+    .large-button{
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        width: 75%;
+        height: 50px;
+        /* height: 100px; */
+        padding: 0px 15px;   
+    }
+    .header{
+        background: url(images/bg.svg);
+        height: 760px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .header h1{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 65px;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0.03em;
+        margin-top: 120px;
+    }
+    .header p{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center; 
+        color: #FFFFFF;
+        padding: 25px;
+    }
+    .header div{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 35px;
+        position: relative;
+    }
+    nav ul li {
+        list-style-type: none;
+        padding: 5px 30px;
+    }
+    nav ul li a.active{
+        border: none;
+    }
+    nav .logo{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    nav a.mobile-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+    #nav-links{
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        transform: translateX(-5px);
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px 10px;
+        margin-top: 50px;
+        transition: all 0.5s ease-in-out;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    nav ul li {
+        list-style-type: none;
+        padding: 5px 30px;
+    }
+    .contact-us{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .contact-us img{
+        width: 100%;
+    }
+    .info{
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 100%;
+        padding-bottom: 0;
+        margin-bottom: 25px;
+    }
+    .info h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 35px;
+        text-align: left;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #52575C;
+        padding-bottom: 45px;
+        /* padding-left: 20px; */
+        padding-right: 20px;
+    }
+    .carousel-circles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .carousel-circles img{
+        margin-right: 10px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#ffffff ;
+    }
+    .mission .about{
+        display: flex;
+        align-items: center;
+    }
+    .mission .about .about-us{
+        margin-right: 100px;
+    }
+    .info-two{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right:0px;
+        margin-bottom: 0px;
+    }
+    .info-two h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info-two h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info-two p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        color: #52575C;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
+    .info-two h5{
+        font-family: 'Archivo', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #2131B6;
+    }
+    .drivers .active-div{
+        background-image: url(images/drivers-img-4.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 95%;
+        height: 398px;
+        padding-bottom: 30px;
+    }
+    .drivers .active-div div{
+        display: flex;
+        background: rgba(33, 49, 182, 0.7);
+        padding: 6px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 28px;
+        margin-top: 388px;
+    }
+
+    .active-div{
+        position: relative;
+    }
+    .active-div-text{
+        position: absolute;
+        top: 100%;
+        right: 123px;
+    }
+    .active-div-text p{
+        font-family: 'Overpass', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #25282B;
+    }
+    .active-div-text .light-text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        text-align: center;
+    }
+    .drivers .active-div div img{
+        margin-right: 20px;
+    }
+    .section-four h3{
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        color: #25282B;  
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .section-four .text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #25282B;
+        padding:  0 20px;
+    }
+
+    .show-case{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+    }
+    .show-case div{
+        margin-right: 0px;
+        width: 80%;
+        height: 80%;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+    .vehicle{
+        display: none;
+    }
+    .get-in-touch{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/bg-img-get-in-touch.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 300px; */
+        margin: 0 auto;
+        width: 100%;
+    }
+    .get-in-touch h3{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 35px;
+        color: #FFFFFF; 
+        padding-top: 55px;  
+        text-align: center;
+    }
+    .get-in-touch div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .get-in-touch button{
+        margin-right: 124px;
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 50%;
+        height: 50px;
+        padding: 0;
+    }
+    .show-case .title{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #25282B;  
+        padding: 20px 0;  
+    }
+    .gallery-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .gallery-links li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #25282B;
+    }
+    .gallery-links ul{
+        padding-top: 20px;
+    }
+    .gallery-links ul li{
+        padding: 0px 10px;
+    }
+    .gallery-links ul li a.active{
+        display: inline;
+        padding-bottom: 10px;
+        border-bottom: 4px solid  #2131B6;
+    }
+    
+    .gallery-images img{
+        width: 100%;
+    }
+    .gallery-images .wedding-img{
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/gallery-img-5.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .gallery-images .wedding-img h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .gallery-images .wedding-img p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;  
+    }
+    .gallery-images .wedding-img div{
+        margin-top: 95px;  
+    }
+    .show-all-link{
+        color: black !important;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #25282B;
+    }
+    .col-2{
+        width: 25%;
+    }
+    .col-3{
+        width: 33.3333%;
+        height: 580px;
+    }
+    .col-4{
+        width: 33.333%;
+        height: 540px;
+    }
+    .col-5{
+        width: 66.666%;
+        height: 540px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    nav a.mobile-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+    nav ul li a.active{
+        border: none;
+    }
+    #nav-links{
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        transform: translateX(-5px);
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px 10px;
+        margin-top: 50px;
+        transition: all 0.5s ease-in-out;
+    }
+    nav ul li {
+        list-style-type: none;
+        padding: 5px 30px;
+    }
+    .large-button{
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        width: 30%;
+        height: 50px;
+        padding: 0px 15px;   
+    }
+    .drivers{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .drivers .active-div{
+        background-image: url(images/drivers-img-4.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 47%;
+        height: 398px;
+    }
+    .drivers .active-div div{
+        display: flex;
+        background: rgba(33, 49, 182, 0.7);
+        padding: 6px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 360px;
+    }
+    .drivers .active-div div img{
+        margin-right: 20px;
+    }
+    .active-div-text{
+        position: absolute;
+        top: 855px;
+        right: 150px;
+    }
+    .contact-us{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .contact-us img{
+        width: 100%;
+    }
+    .contact-us button{
+        background: #2131B6;
+        padding: 20px 30px;
+        margin: 0 auto;
+        width: 25%;
+        height: 100%;
+    }
+    .mission{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        background-color:#ffffff;
+    }
+    .info{
+        margin-top: 44px;
+        margin-left: 30px;
+        margin-right:0px;
+        margin-bottom: 75px;
+    }
+    .info-two{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right:0px;
+        margin-bottom: 0px;
+    }
+    .mission .about{
+        display: flex;
+        align-items: center;
+    }
+    .mission .about .about-us{
+        margin-right: 100px;
+    }
+    .gallery-images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .col-3{
+        width: 33.3333%;
+    }
+    .col-4{
+        width: 50%;
+    }
+    /* .gallery-images .wedding-image:hover{
+        
+        
+    }
+    .gallery-images .wedding-img h3{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .gallery-images .wedding-img p{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;  
+    }
+    .gallery-images .wedding-img div{
+        margin-top: 95px;  
+    } */
+    
+    .show-case{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+    }
+    .show-case div{
+        margin-right: 0px;
+        width: 70%;
+        height: 80%;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    }
+    .vehicle{
+        display: none;
+    }
+    .car-info button{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        background-color: #2131B6;
+        border: none;
+        width: 55%;
+        padding: 15px 35px;
+    }
+    .carousel-circles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .carousel-circles img{
+        margin-right: 10px;
+    }
+    .vehicle{
+        display: none;
+    }
+
+    .show-all-link{
+        color: black !important;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #25282B;
+    }
+    .get-in-touch h3{
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 44px;
+        color: #FFFFFF; 
+        margin-right: 50px;   
+    }
+    .get-in-touch div{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .get-in-touch button{
+        background: #2131B6;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 30%;
+        height: 100%;
+        margin: 0 auto;
+        display: block;
+        padding: 10px 15px;
+    }
+
+}  
+@media screen and (min-width:1440px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Archivo', sans-serif;
+        box-sizing: border-box;
+        background: #F9F9FA;
+    }
+    section{
+        padding: 0;
+    }
+    .header{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/header-bg-img.svg);
+        height: 850px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header h1{
+        font-weight: 600;
+        font-size: 59px;
+        line-height: 65px;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0.03em;
+        padding-top: 120px;
+    }
+    .header p{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center; 
+        color: #FFFFFF;
+        padding: 25px;
+    }
+    .large-button{
+        background: #2131B6;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        width: 335px;
+        height: 100px;
+        padding: 30px 80px;
+        
+    }
+    .header button{
+        margin: 0 auto;
+        display: block;
+    }
+    .header div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+    }
+    .header div img{
+        margin-right: 10px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+        padding: 40px 65px;
+    }
+    #nav-links{
+        display: flex;
+    } 
+    .mobile-icon{
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    nav ul li{
+        list-style-type: none;
+        padding:0px 30px;
+    }
+    nav ul li a:hover{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Overpass', sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom:8px;
+        border-bottom: 4px solid #ffffff;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Overpass', sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    nav ul li a.active{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Overpass', sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 8px;
+        border-bottom: 4px solid #ffffff;
+    }
+    .contact-us{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+    }
+    .contact-us button{
+        background: #2131B6;
+        padding: 20px 30px;
+        margin: 0 auto;
+    }
+    .info{
+        margin: 220px 30px;
+    }
+    .info-two{
+        margin-top: 220px;
+        margin-left: 0px;
+        margin-right:50px;
+        margin-bottom: 220px;
+    }
+    .info h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        padding-bottom: 45px;
+    }
+    .info-two h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #2131B6;
+        padding-bottom:30px;
+    }
+    .info-two h3{
+        font-family: 'Archivo', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        color: #25282B;
+        padding-bottom:30px;
+    }
+    .info-two p{
+        font-family: 'Overpass', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        padding-bottom: 45px;
+    }
+    .info-two h5{
+        font-family: 'Archivo', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 59px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #2131B6;
+    }
+    
+    .mission{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color:#ffffff ;
+    }
+    .mission image{
+        object-fit: cover;
+    }
+    .mission .about{
+        display: flex;
+        align-items: center;
+    }
+    .mission .about .about-us{
+        margin-right: 100px;
+    }
+    .section-four h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #25282B;  
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .section-four .text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #25282B;
+    }
+    .show-case{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+    .show-case div{
+        margin-right: 70px;
+        width: 14%;
+        height: 520px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left:20px;
+        padding-right: 0;
+        margin-bottom: 50px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 34px rgba(9, 44, 76, 0.16);
+    }
+    .show-case div img{
+        width: 100%;
+    }
+    .show-case .title{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #25282B;  
+        padding: 40px 0;  
+    }
+    .show-case .title-1{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #25282B;  
+        padding-bottom: 40px;
+        padding-top: 165px;  
+    }
+    .show-case h6{
+        font-family: 'Archivo', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        color: #25282B;
+    }
+    .light-text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 15px;
+        color: #52575C;   
+    }
+    .bold-text{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #2131B6;;  
+    }
+    .car-info{
+        position: relative;
+    }
+    .car-info button{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        background-color: #2131B6;
+        border: none;
+        width: 90%;
+        margin: 0 auto;
+        padding: 15px 35px;
+    }
+    .car-info .limosine{
+        position: absolute;
+        left: 0;
+        top: 0px;   
+    }
+    .carousel-circles{
+        display: none;
+    }
+    .get-in-touch{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/bg-img-get-in-touch.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .get-in-touch h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        color: #FFFFFF; 
+        margin-right: 50px;   
+    }
+    .get-in-touch div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .get-in-touch button{
+        background: #2131B6;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        width: 335px;
+        height: 100px;
+    }
+    .drivers{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .drivers img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .drivers .active-div{
+        background-image: url(images/drivers-img-4.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 24%;
+        height: 398px;
+    }
+    .drivers .active-div div{
+        display: flex;
+        background: rgba(33, 49, 182, 0.7);
+        padding: 6px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 360px;
+    }
+    .drivers .active-div div img{
+        margin-right: 20px;
+    }
+    
+    .drivers div p{
+        font-family: 'Overpass', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #25282B;
+    }
+    .drivers .light-text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+    }
+    .active-div{
+        position: relative;
+    }
+    .active-div-text{
+        position: absolute;
+        top: 405px;
+        right: 150px;
+    }
+    .active-div-text p{
+        font-family: 'Overpass', sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #25282B;
+    }
+    .active-div-text .light-text{
+        font-family: 'Overpass', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #52575C;
+        text-align: center;
+    }
+    .heading{
+        display: inline;
+        padding-bottom: 5px;
+        border-bottom: 4px solid  #2131B6;
+    }
+    .gallery-heading{
+        display: inline;
+        padding-bottom: 15px;
+        border-bottom: 4px solid  #2131B6;
+    }
+    .gallery-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-links li a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #25282B;
+    }
+    .gallery-links ul li a.active{
+        display: inline;
+        padding-bottom: 10px;
+        border-bottom: 4px solid  #2131B6;
+    }
+    .gallery-images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .gallery-images .wedding-image{
+        position: relative;
+    }
+    .gallery-images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .gallery-images .text{
+        position: absolute;
+        top: 150px;
+        left: 350px;
+    }
+    .gallery-images .wedding-image h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .gallery-images .wedding-image p{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;  
+    }
+    .gallery-images .wedding-img div{
+        margin-top: 180px;  
+    }
+    .show-all-link{
+        color: black !important;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #25282B;
+    }
+    .col-2{
+        width: 25%;
+    }
+    .col-3{
+        width: 33.3333%;
+        height: 580px;
+    }
+    .col-4{
+        width: 33.333%;
+        height: 540px;
+    }
+    .col-5{
+        width: 66.666%;
+        height: 540px;
+    }
+}
+
+

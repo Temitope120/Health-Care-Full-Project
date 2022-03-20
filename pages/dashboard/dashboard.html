@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!--Font Awesome -->
+    <script src="https://use.fontawesome.com/d53260fedc.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Nunito+Sans:wght@900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="sidebar ps-rel">
+            <div class="p-2 mb-3 d-flex mx-auto w-80 mt-4 ">
+                <img src="../../images/dashboard-logo.svg" class="mx-auto mb-3 dsp-none" alt="logo">
+                <h2 class="ps-2 font-family-nunito text-white d-none-md">Health Lite</h2>
+            </div>
+            <nav class="side-nav py-2 py-2-none mt-4">
+                <ul class="">
+                    <a href="../dashboard/dashboard.html" class="text-decoration">
+                        <li class="side-menu py-2 align-items-center active pb-5 list-style-none ps-4 mb-4">
+                            <img src="../../images/icon-dashboard.svg" alt="dashboard" class="mr-2">
+                            <a class="side-link d-none-md active ps-2 text-decoration f-w-500"
+                                href="../dashboard/dashboard.html" target="_blank">
+                                Dashboard </a>
+                        </li>
+                    </a>
+                    <li class="side-menu py-2 align-items-center ps-4 mb-5 list-style-none mb-4">
+                        <img src="../../images/wait-icon.svg" alt="clock icon" class="mr-2">
+                        <a class="side-link d-none-md text-decoration ps-2 pb-1 f-w-500" href="#">Waiting Room</a>
+                    </li>
+                    <a href="../schedule/schedule.html" class="text-decoration">
+                        <li class="side-menu pb-5 align-items-center py-2 list-style-none ps-4 mb-4">
+                            <img src="../../images/icon-schedule.svg" alt="schedule" class="mr-2">
+                            <a class="side-link  d-none-md text-decoration ps-2 f-w-500" href="../schedule/schedule.html"
+                                target="_blank"> Schedule</a>
+                        </li>
+                    </a>
+                    <li class="side-menu pb-5 align-items-center py-2 list-style-none ps-4 mb-4">
+                        <img src="../../images/icon-patients.svg" alt="schedule" class="mr-2">
+                        <a class="side-link  d-none-md text-decoration ps-2 f-w-500" href="#"> My Patients</a>
+                    </li>
+                    <li class="side-menu pb-5 align-items-center py-2 list-style-none ps-4 mb-4">
+                        <img src="../../images/icon-sticky-note.svg" alt="sticky note icon" class="mr-2">
+                        <a class="side-link d-none-md text-decoration ps-2 f-w-500" href="#" target="_blank">Notes</a>
+                    </li>
+                    <li class="side-menu pb-3 align-items-center py-2 list-style-none ps-4 mb-4">
+                        <img src="../../images/icon-chat.svg" alt="chat" class="mr-2">
+                        <a class="side-link d-none-md text-decoration ps-2 f-w-500" href="#"> Chats </a>
+                    </li> <br>
+                    <div class="mt-5">
+                        <li class="side-menu pb-3 align-items-center py-2 list-style-none ps-4 mb-2">
+                            <img src="../../images/profile-user-img.svg" class="mr-2" alt="">
+                            <a class="side-link d-none-md text-decoration ps-2 f-w-500" href="#"> My Patients </a>
+                        </li>
+                        <li class="side-menu pb-3 align-items-center py-2 list-style-none ps-4 mb-2">
+                            <img src="../../images/dashboard-settings.svg" class="mr-2" alt="">
+                            <a class="side-link d-none-md text-decoration ps-2 f-w-500" href="#"> Settings </a>
+                        </li>
+                    </div>
+
+                </ul> <br> <br> <br> <br>
+
+            </nav>
+        </div>
+
+
+        <div class="body-main">
+            <img src="../../images/toggle-new.png" alt="" id="toggle" class="toggle-d-none toggle-d-block-sm" width="40px" height="50px">
+            <nav class="navbar navbar-light px-5 sticky-top mb-4">
+                <div class="col-4 mx-auto align-self-center">
+                </div>
+                <div class="d-flex space-between ms-auto">
+                    <img src="../../images/dashboard-notification.svg" alt="notification bell" class="me-3">
+                    <img src="../../images/dashboard-nav-user.svg" alt="user image">
+
+                </div>
+            </nav>
+
+            <div class="p-4 p-4-sm m-5-tab m-5 gap-md ml-5-md-none p-4-md-none d-flex display-block-md space-between">
+
+                <div class="col-8 col-8-md">
+                    <div class="blue-bg d-flex p-3">
+                        <div class="justify-content-start w-70 lg-w-sm p-3">
+                            <h3 class="text-white font-family-poppins font-size-1-md font-size-1-sm"> Welcome,
+                                <strong>Dr. Fayemi David</strong></h3>
+                            <p class="text-white font-size-small-md font-size-2-md font-family-poppins py-4  py-4-sm">
+                                You have <span id="appointments"></span> new appointments and there are currently <span
+                                    id="patients"></span> <br> patients in the waiting room. Have a nice day at work!
+                            </p>
+
+                            <div
+                                class="d-flex d-flex-xx-lg align-items-center d-flex-mini d-block-md d-block-sm w-50 w-50-tab d-flex-lg w-none-md mt-4 mt-5-sm">
+                                <button
+                                    class="light-bg outline-none border-style-none py-2 px-3 px-3-none-md text-white font-size-small-md mb-3-md w-100-md mb-sm w-100-xx-lg btn-sm btn-mini ">
+                                    <i class="fa fa-eye ps-2 pe-3" aria-hidden="true"></i>View Your appointments
+                                </button>
+                                <button
+                                    class="light-bg outline-none border-style-none py-2 px-3 px-3-none-md text-white font-size-small-md mb-3-md w-100-xx-lg w-100-md mb-sm btn-sm btn-mini">Go to waiting room <i class="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-30 dsp-none">
+                            <img src="../../images/dshboard-char.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="d-flex d-block-sm lg-w-sm space-between mt-4">
+                        <div class="col-3-top mb-sm p-3-tab bg-white border-radius-sm p-3">
+                            <div class="d-flex">
+                                <div class="w-70 w-35-md w-50-tab">
+                                    <img src="../../images/all-time-icon.svg" alt="">
+                                </div>
+                                <p class="w-30 w-60-md pt-2 font-size-small-md w-50-tab font-size-2-md">All Time <img
+                                        src="../../images/arrow-up.svg" alt=""> </p>
+                            </div>
+
+                            <h4 id="totalPatients" class="f-w-800 font-size-1 font-size-1-md pt-3 p-3-tab text-dark-2">
+                            </h4>
+                            <p class="font-size-2 font-size-2-md line-height-1 text-light p-3-tab pt-3 pt-3-md">Total
+                                Patients</p>
+                            <p class="font-size-3 text-dark mt-4 mt-md mt-4-tab"> <img
+                                    src="../../images/dashboard-arrow-up.svg" alt=""> 5% less than last month </p>
+                        </div>
+                        <div class="col-3-top mb-sm p-3-tab bg-white border-radius-sm p-3">
+                            <div class="d-flex">
+                                <div class="w-70 w-50-md w-50-tab">
+                                    <img src="../../images/calendar-2.svg" alt="" class="img-fluid">
+                                </div>
+                                <p class="w-30 w-50-md pt-2 font-size-small-md w-50-tab font-size-2-md">Today <img
+                                        src="../../images/arrow-up.svg" alt=""></p>
+                            </div>
+                            <h4 id="appointment" class="f-w-800 font-size-1 font-size-1-md p-3-tab pt-3 text-dark-2">
+                            </h4>
+                            <p class="font-size-2 line-height-1 text-light pt-3 pt-3-md p-3-tab  font-size-2-md ">
+                                Appointments</p>
+                            <p class="font-size-3 text-dark mt-4 mt-md mt-4-tab"> <img
+                                    src="../../images/dashboard-arrow-up.svg" alt=""> 15% more than yesterday </p>
+                        </div>
+                        <div class="col-3-top mb-sm p-3-tab bg-white border-radius-sm p-3">
+                            <div class="d-flex">
+                                <div class="w-70 w-50-md w-50-tab">
+                                    <img src="../../images/today-icon-2.svg" alt="" class="img-fluid">
+                                </div>
+                                <p class="w-30 w-50-md pt-2 font-size-small-md d-flex-md w-50-tab font-size-2-md">Today
+                                    <img src="../../images/arrow-up.svg" alt=""></p>
+                            </div>
+                            <h4 id="waitRoom" class="f-w-800 font-size-1 pt-3 font-size-1-md p-3-tab text-dark-2"></h4>
+                            <p class="font-size-2 line-height-1 text-light pt-3 pt-3-md  p-3-tab  font-size-2-md ">
+                                Waiting Room</p>
+                            <p class="font-size-3 text-dark mt-4 mt-md mt-4-tab"> <img
+                                    src="../../images/dashboard-arrow-up.svg" alt=""> 35% less than yesterday</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="bg-white mt-4 border-radius-sm p-3">
+                        <div class="d-flex space-between">
+                            <p class="pb f-w-700 font-size-4 font-size-1-sm text-dark-2 line-height-3 w-60-md w-sm ps-rel"
+                                id="next-patients">Your next patients
+                            </p>
+                            <a href="#" class="text-blue f-w-700 font-size-1-sm text-decoration w-35-md link-w-lg w-sm">
+                                View All
+                                <img src="../../images/Union.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div id="patient_appointment">
+                            <!-- <p id="time"></p> -->
+                        </div>
+                    </div>
+
+
+                    <div class="bg-white mt-4">
+                        <img src="../../images/appointment-stat-dashboard.svg" alt="" class="w-100">
+                    </div>
+                </div>
+
+                <div class="col-4-top col-4-top-md">
+
+                    <img src="../../images/dashboard-calendar.svg" alt="Calendar" class="w-100 mt-2-md">
+                    <img src="../../images/patients-dashboard.svg" alt="" class="w-100 mt-3">
+                    <div class="bg-white p-4 mt-4">
+                        <div class="d-flex space-between mt-3">
+                            <p class="pb border-btm f-w-700 font-size-4 text-dark-2 line-height-3">Activities</p>
+                            <img src="../../images/activities-notification.svg" alt="" class="notify">
+                        </div>
+
+                        <div id="activity">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row gap p-3">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="../dashboard/dashboard.js"></script>
+</body>
+
+</html>
