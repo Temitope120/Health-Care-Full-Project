@@ -24,43 +24,40 @@
 
 <body>
     <section class="header">
-        <nav class="dsp-flexx">
+        <nav class="dsp-flexx space-between">
             <img src="../../images/logo-2.svg" alt="logo" class="logo flex-start">
-
-            <div class="flex-end">
-                <ul id="nav-links" class="nav-links dsp-flex">
-                    <li class="list-item"> 
+            <div class="flex-end flex-col-sm ps-rel">
+                <ul id="nav-links" class="nav-links dsp-flex flex-col-sm d-none-md">
+                    <li class="list-item list-item-md"> 
                         <a href="../home/home.html"
                             class="active anchor f-w-500 font-family-poppins font-size-8 ln-7 text-decoration text-white" target="_blank">Home
                         </a>
                     </li>
-                    <li class="list-item"> 
+                    <li class="list-item list-item-md"> 
                         <a href="#"
                             class="anchor active anchor f-w-500 font-family-poppins font-size-8 ln-7 text-decoration text-white">About
                         </a>
                     </li>
-                    <li class="list-item"> 
+                    <li class="list-item list-item-md"> 
                         <a href="#" class="anchor active anchor f-w-500 font-family-poppins font-size-8 ln-7 text-decoration text-white">Services
                         </a>
                     </li>
-                    <li class="list-item"> 
+                    <li class="list-item list-item-md"> 
                         <a href="../contact/contact.html" class="anchor active anchor f-w-500 font-family-poppins font-size-8 ln-7 text-decoration text-white" target="_blank">Contact
                         </a>
                     </li>
                 </ul>
 
-                <a href="../dashboard/dashboard.html" class="btn-white font-size-2 mr-4 font-family-poppins font-size-1 py-3 px-4 text-center border-radius-md f-w-600 text-decoration">Get Started
+                <img src="../../images/toggle-new.png" id="toggle" class="dsp-none d-none-md d-block " alt="" width="30px" height="30px" onclick="displayNavLinks()">
+
+                <a href="../dashboard/dashboard.html" class="btn-white font-size-2 mr-4 font-family-poppins font-size-1 py-3 px-4 text-center border-radius-md f-w-600 text-decoration mr-none-md px-4-md">Get Started
                 </a>
             </div>
-
-            <a href="#" class="mobile-icon dsp-none" onclick="displayNavLinks()">
-                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-            </a>
         </nav>
 
 
-        <h1 class="big-text f-w-600 ln-3 text-center ls-1 font-family-poppins pb-4 pt-3"> Contact Us</h1>
-        <p class="white-text font-size-3 font-family-mont f-w-600 text-center opaque">
+        <h1 class="big-text f-w-600 ln-3 text-center ls-1 font-family-poppins pb-4 pb-4-md pt-3 font-sm-md"> Contact Us</h1>
+        <p class="white-text font-size-3 font-family-mont f-w-600 text-center opaque font-size-3-md pb-4-md">
             An enim nullam tempor sapien gravida donec enim <br>
             ipsum porta justo congue purus pretium ligula
         </p>
@@ -81,8 +78,8 @@
     </section>
 
     <section>
-        <div class="dsp-flex mx-auto w-75 mb-5">
-            <div class="w-28 white-bg border-radius-lg mx-auto">
+        <div class="dsp-flex d-block mx-auto w-75 mb-5">
+            <div class="w-28 w-28-lg w-28-md w-100 white-bg border-radius-lg mx-auto">
                 <h6 class="blue-bg white-text-lg font-family-mont font-size-7 f-w-700 p-5 ln-4 pl-3">
                     Contact Details
                 </h6>
@@ -95,7 +92,7 @@
                         2118 Thornridge Cir. Syracuse, <br> California 208434
                     </p>
                 </div>
-                <img src="../../images/line-contact-section.svg" alt="line" class="mx-auto dsp-block mt-4 pt-2">
+                <img src="../../images/line-contact-section.svg" alt="line" class="mx-auto d-none-md dsp-block mt-4 pt-2">
 
                 <p class="pl-3 contact-heading f-w-700 opaque font-family-grotesk pt-4 pb-2">
                     Contact Info
@@ -113,7 +110,7 @@
                 </div> 
             </div>
 
-            <div class="w-50 white-bg border-radius-lg mx-auto">
+            <div class="w-50 white-bg w-100 pt-3-md mt-3-md border-radius-lg mx-auto">
                 <form action="#" class="mx-5 mt-5" id="messageForm">
                     <input type="text" placeholder="Enter your name*" id="userName" autofocus class="form-control border-style-none outline-none" required> <br> <br>
                     <input type="email" placeholder="Enter your email address*" id="email" class="form-control border-style-none outline-none" autofocus required> <br>
@@ -133,7 +130,7 @@
     </section>
 
     <section class="whitte-bg w-100">
-        <div class="dsp-grid mt-5 mx-auto w-90">
+        <div class="dsp-grid dsp-grid-md mt-5-md mt-5 mx-auto w-90">
             <div>
                 <div><a class="text-decoration"><img src="../../images/logo-blue.svg"></a></div>
                 <div>
@@ -153,17 +150,17 @@
                     <h5 class="font-family-roboto font-size-8 f-w-700">Category</h5>
                 </div>
                 <div class="icon medbl">
-                    <ul>
+                    <ul class="dsp-flex-links-md">
                         <li class="mrgbtm list-style-none pt-3"><a
-                                class="text-decoration font-family-roboto font-size-3 anchorr">Home </a></li>
+                                class="text-decoration font-family-roboto font-size-3 anchorr anchor-md">Home </a></li>
                         <li class="mrgbtm list-style-none py-2"><a
-                                class="text-decoration font-family-roboto font-size-3 anchorr">About</a></li>
+                                class="text-decoration font-family-roboto font-size-3 anchorr anchor-md">About</a></li>
                         <li class="mrgbtm list-style-none py-2"><a
-                                class="text-decoration font-family-roboto font-size-3 anchorr">Services</a></li>
+                                class="text-decoration font-family-roboto font-size-3 anchorr anchor-md">Services</a></li>
                         <li class="mrgbtm list-style-none py-2"><a
-                                class="text-decoration font-family-roboto font-size-3 anchorr">Reviews</a></li>
+                                class="text-decoration font-family-roboto font-size-3 anchorr anchor-md">Reviews</a></li>
                         <li class="mrgbtm list-style-none py-2"><a
-                                class="text-decoration font-family-roboto font-size-3 anchorr">Article</a></li>
+                                class="text-decoration font-family-roboto font-size-3 anchorr anchor-md">Article</a></li>
                     </ul>
                 </div>
             </div>
@@ -193,7 +190,7 @@
                     <input type="email" placeholder="Enter your email" class="footer-input mt-4"> <br>
 
                     <button
-                        class="btn-primary border-radius-sm font-size-3 f-w-600 white-text  font-family-mont text-center py-3 px-4 border-radius-md border-style-none mb-5 mt-4 w-80">
+                        class="w-lg-100 btn-primary border-radius-sm font-size-3 f-w-600 white-text  font-family-mont text-center py-3 px-4 border-radius-md border-style-none mb-5 mt-4 w-80 w-lg-md">
                         Subscribe
                     </button>
                 </div>
@@ -202,10 +199,10 @@
     </section>
     <hr>
     <div class="space-between w-90 mx-auto">
-        <div class="w-60">
+        <div class="w-60 w-60-md">
             <p>&copy; 2021 HealthCare - All rights reserved.</p>
         </div>
-        <div class="w-40">
+        <div class="w-40 w-40-md">
             <ul class="dsp-flex">
                 <li class="mrgbtm list-style-none pt-3 list-item">
                     <a
