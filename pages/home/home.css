@@ -637,12 +637,12 @@ i{color: #fff;}
 }
 @media screen and (max-width:480px){
     nav{
-        display: none !important;
+        padding: 0px 55px; 
     }
-    .mobile-icon{
+    /* .mobile-icon{
         display: block !important;
         margin-left: auto;
-    }
+    } */
     #navv .flex-end ul{
         display: none;
     }
@@ -655,7 +655,7 @@ i{color: #fff;}
     .show{
         display: block !important;
         width: 30px;
-        height: 60vh;
+        height: 36vh;
         position: absolute;
         top: 60px;
         right: 0;
@@ -672,21 +672,21 @@ i{color: #fff;}
         color: #fff;
     }
     #toggle-menu .flex-end ul li {
-        padding-bottom: 20px !important
+        padding-bottom: 0px !important
      }
     .flex-end{
-        margin-top: 30px;
-        
+        margin-top: 30px; 
     }
+    .mt-5-sm{margin-top:1.5rem !important}
     .head-img{
         display: none !important;
     }
     .header{
         height: 300px;
     }
-    .find-text{
-        text-align: center !important;
-        font-size: 2rem !important;
+    .find-text {
+        text-align: left !important;
+        font-size: 1.5rem !important;
         line-height: 50px;
         padding-top: 14px;
     }
@@ -709,7 +709,7 @@ i{color: #fff;}
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         font-size: 12px !important;
-        width: 100%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
