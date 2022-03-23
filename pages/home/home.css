@@ -639,10 +639,9 @@ i{color: #fff;}
     nav{
         padding: 0px 55px; 
     }
-    /* .mobile-icon{
-        display: block !important;
-        margin-left: auto;
-    } */
+    .logo{
+        width: 35%;
+    }
     #navv .flex-end ul{
         display: none;
     }
