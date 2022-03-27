@@ -315,7 +315,7 @@ body{
     #toggle-d-none{
         display: none;
     }
-    .d-flex-xx-lg{
+    .d-flex-x7x-lg{
         display: flex;
         gap: 20px;
         justify-content: center;
@@ -672,4 +672,5 @@ body{
         display: block !important;
     } */
 }
+
 
