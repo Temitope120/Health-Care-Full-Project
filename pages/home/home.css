@@ -640,7 +640,7 @@ i{color: #fff;}
 }
 @media screen and (max-width:480px){
     nav{
-        padding: 0px 55px; 
+        padding: 0px 12px !important; 
     }
     .logo{
         width: 35%;
@@ -714,7 +714,7 @@ i{color: #fff;}
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         font-size: 12px !important;
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -863,6 +863,16 @@ i{color: #fff;}
     }
     .list-item-sm{
         padding: 0px 8px !important;
+    }
+    .find-text{
+        line-height: 30px;
+    }
+    .px-4 {
+        padding-left: 1.9rem ;
+        padding-right: 1.9rem ;
+    }
+    .mt-top-topbar{
+        margin-top: 59px;
     }
 }
 
